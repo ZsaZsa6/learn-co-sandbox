@@ -1,0 +1,15 @@
+class Dog
+ 
+  attr_accessor :name, :owner
+ 
+  def initialize(name)
+    @name = name
+  end
+ 
+end
+fido.owner = "Sophie"
+
+def adopted(dog, owner_name)
+  dog.owner = owner_name
+end
+adopted(fido, "Sophie")
